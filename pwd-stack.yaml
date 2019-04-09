@@ -1,0 +1,18 @@
+version: '3'
+services:
+  oh-core:
+   image: oh-core:lastest
+   build: ./app
+   working_dir: /app
+   volumes:
+     - ./app:/app
+   restart: always
+   ports:
+     - 80:80
+     - 443:443
+   depends_on:
+     - db
+
+  db:
+    restart: always
+    image: mysql:5.6
