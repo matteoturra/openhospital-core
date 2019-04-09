@@ -24,3 +24,5 @@ You need a GUI (Graphic User Interface) in order to use the core:
 Please read the OpenHospital [Wiki](https://openhospital.atlassian.net/wiki/display/OH/Contribution+Guidelines)
 
 See the Open Issues on [Jira](https://openhospital.atlassian.net/issues/)
+
+[![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://github.com/matteoturra/openhospital-core/pwd-stack.yml)
